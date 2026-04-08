@@ -1,23 +1,23 @@
-void ft_is_negative(int n)
-{
-    if (n < 0)
-    {
-        ft_putchar('N');
-    }
-    else
-    {
-        ft_putchar('P'); 
-    }
-}
-#include <unistd.h>
-#include <stdio.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_is_negative.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: fminks-g <fminks-g@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/07 18:39:14 by fminks-g          #+#    #+#             */
+/*   Updated: 2026/04/08 14:03:35 by fminks-g         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-int main(void)
+void	ft_is_negative(int n)
 {
-   void ft_putchar(char c)
-    {
-        write (1, &c, 1);
-    }
-    ft_is_negative (40);
-    return(0);
+	if (n < 0)
+	{
+		ft_putchar('N');
+	}
+	else
+	{
+		ft_putchar('P');
+	}
 }

@@ -6,26 +6,24 @@
 /*   By: fminks-g <fminks-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/07 17:31:55 by fminks-g          #+#    #+#             */
-/*   Updated: 2026/04/07 17:32:26 by fminks-g         ###   ########.fr       */
+/*   Updated: 2026/04/08 13:00:06 by fminks-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_putchar(char c);
 
 void	ft_print_alphabet(void)
 {
-	char	letter;
+	char	digit;
 
-	letter = 'a';
-	while (letter <= 'z')
+	digit = '0';
+	while (digit <= '9')
 	{
-		ft_putchar(letter);
-		letter++;
+		ft_putchar(digit);
+		digit++;
 	}
-	write (1, "\n", 1);
 }
+
 /*
 int main(void)
 {
